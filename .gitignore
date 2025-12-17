@@ -3,6 +3,7 @@
 terraform.tfstate
 terraform.tfstate.backup
 *.tfplan
+#*.tfvars
 
 # Terraform override files
 override.tf
