@@ -112,7 +112,7 @@ resource "azurerm_linux_virtual_machine" "zineb" {
  }
 
  */
-
+/*
 
 
 variable "prefix" {}
@@ -131,7 +131,7 @@ variable "tags" {
   type        = map(any)
   description = "A map of tags"
 }
-
+*/
 
 resource "azurerm_resource_group" "contoso_rg" {
   name     = "${var.prefix}_rg"
